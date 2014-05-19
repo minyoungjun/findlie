@@ -1,1 +1,16 @@
-수지를 찾아라
+<style>
+img {
+  width:35%;
+
+}
+</style>
+
+<div style="margin-left:5px;">
+  <p style="font-size:18px; color:#494949;">수지를 찾아라!</p>
+  <%arr = [1,2,3,4]%>
+  <%arr.shuffle.each do |x|%>
+    <a href="/main/result/<%=x%>"><img src="/images/pic<%=x%>.jpg"/></a>
+  <%end%>
+<p style="color:#494949;">본 사이트는<br>모바일에 환경에</br>최적화되어있습니다.</p>
+</div>
+

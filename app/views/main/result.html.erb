@@ -1,0 +1,20 @@
+<style>
+img {
+
+  width:80%;
+
+}
+a {
+text-decoration:none;
+}
+</style>
+<a href="/main/index">
+<div style="text-align:center;">
+  <%if @result%>
+    <img src="/images/good.jpg"/>
+  <%else%>
+    <img src="/images/fail.jpg"/>
+  <%end%>
+  <h3><img src="/images/retry.png" style="width:20%;vertical-align:middle;margin-right:10px;">다시 하기</h3>
+</div>
+</a>

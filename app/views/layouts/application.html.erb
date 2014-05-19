@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Findlie</title>
+<title>수지를 찾아라</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-</head>
+  </head>
+  <style>
+body {
+  width:100%;
+  padding-left:0;
+  margin-left:0;
+  background-image:url('/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+  </style>
 <body>
 
 <%= yield %>
